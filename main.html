@@ -1,0 +1,142 @@
+
+<html>
+<meta charset="utf-8">
+<head>
+
+	<style media="screen" type="text/css">
+	body {
+		color: #eee;
+		padding: 0px;
+		font-family: "NotoSans CJK TC" , "Source Han Sans", "Source Sans Pro";
+		font-weight: lighter;
+		background: black;
+	}
+	#wrapper {
+		background-image: url('back.jpg');
+		padding: 0; 
+		height:auto;
+	}
+	#bannerLogo {
+		text-align:center;
+		height:80px;
+	}
+	#footer {
+		background:rgba(0, 0, 0, 0.5);
+		color:  rgba(255, 255, 255, 0.88);
+		height:200px;
+	}
+	
+	.CopyrightTitle {
+		color:  rgb(255, 255, 255, 0.88);
+	}
+	.bannerBlock {
+		position: relative;
+	}
+	.bannerTitle {
+		position: absolute;
+		bottom: -38px; left: 2px;
+		padding: 20px;
+		font-size: 72px;
+		font-weight: 600;
+		opacity: 0.8;
+	}
+	.blockContent {
+		position: relative;
+		background: rgba(0, 0, 0, 0.5);
+		height:300px;
+		padding: 32px;
+		width:calc(100% - 64px);
+		opacity: 0.76;
+	}
+	.blockTitle {
+		position: relative;
+		height: 60px;
+	}
+	.slashBlock {
+		display: inline-block;
+		vertical-align: bottom;
+		background-color: rgb(186,83,71);
+		height: 32px; width: 8px;
+		margin-bottom: 7px;
+		transform: skew(-12deg);
+	}
+	.slashTitle {
+		color:  rgb(196,93,81);
+		font-size: 30px;
+		font-weight: bolder;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.blockTitleContent {
+		position:absolute;
+		bottom: 2px;
+		padding-left:40px
+	}
+	.footerTitleContent {
+		padding-top: 20px;
+		padding-left:40px
+	}
+
+	</style>
+ 
+</head>
+
+<body>
+	<div id="wrapper">
+		<div style="height:100px; direction:rtl; ">訂閱電子報</div>
+		<div id="bannerLogo">
+			<img src="http://sitcon.org/2015/images/logo.png">
+		</div>
+		<div class="bannerBlock">
+			<img src="banner.jpg" style="width:100%;height:auto" />
+			<span class="bannerTitle">綠指針快報</span>
+		</div>
+		<div class="blockTitle">
+			<div class="blockTitleContent">
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+				<span class="slashTitle">議程簡介</span>
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+			</div>
+			
+		</div>
+		<div class="blockContent">//內容1</div>
+		<div class="blockTitle">
+			<div class="blockTitleContent">
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+				<span class="slashTitle">新聞發佈</span>
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+			</div>
+		</div>
+		<div class="blockContent">//內容2</div>
+		<div class="blockTitle">
+			<div class="blockTitleContent">
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+				<span class="slashTitle">贊助商介紹</span>
+				<div class="slashBlock"></div>
+				<div class="slashBlock"></div>
+			</div>
+		</div>
+		<div class="blockContent">//內容3</div>
+		<div class="blockTitle"></div>
+
+		<div id="footer">
+			<div class="footerTitle">
+				<div class="footerTitleContent">
+					<span class="CopyrightTitle">Copyright © 2015 SITCON 學生計算機年會 版權所有<br>
+					<a href="url">DESCRIPITION</a><br>				
+					寄送地址<br>
+					<a href="url">ADRRESS</a>
+					
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
